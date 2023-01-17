@@ -4,6 +4,7 @@ import pic1 from "../assets/pic1.avif";
 import pic2 from "../assets/pic2.avif";
 import pic3 from "../assets/pic3.avif";
 import pic4 from "../assets/pic4.avif";
+import country from '../assets/country.jpeg'
 
 const Projects = () => {
   return (
@@ -17,7 +18,12 @@ const Projects = () => {
         corrupti impedit. Modi cum earum dolore, ipsum veniam est nisi ad.
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
-        <ProjectItem img={pic1} title='Crypto' />
+        <ProjectItem
+          img={country}
+          title='Countries API'
+          live='https://country-r3rc8ojx5-cmadiope.vercel.app/'
+          gitRepo='https://github.com/CMadiope/country'
+        />
         <ProjectItem img={pic2} title='Property App' />
         <ProjectItem img={pic3} title='Netflix Clone' />
         <ProjectItem img={pic4} title='Notes App' />
