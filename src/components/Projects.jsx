@@ -5,6 +5,7 @@ import pic2 from "../assets/pic2.avif";
 import pic3 from "../assets/pic3.avif";
 import pic4 from "../assets/pic4.avif";
 import country from '../assets/country.jpeg'
+import northstar from '../assets/northstar.png'
 
 const Projects = () => {
   return (
@@ -24,9 +25,14 @@ const Projects = () => {
           live='https://country-r3rc8ojx5-cmadiope.vercel.app/'
           gitRepo='https://github.com/CMadiope/country'
         />
-        <ProjectItem img={pic2} title='Property App' />
-        <ProjectItem img={pic3} title='Netflix Clone' />
-        <ProjectItem img={pic4} title='Notes App' />
+        <ProjectItem
+          img={northstar}
+          title='Shopping'
+          live='https://northstar-nine.vercel.app/'
+          gitRepo='https://github.com/CMadiope/northstar'
+        />
+        <ProjectItem img={pic3} title='Coming soon' />
+        <ProjectItem img={pic4} title='Coming soon' />
       </div>
     </div>
   );

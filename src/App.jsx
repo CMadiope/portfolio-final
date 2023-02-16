@@ -2,7 +2,7 @@ import Contact from "./components/Contact";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import SideNav from "./components/SideNav";
-import Work from "./components/Work";
+import Work from "./components/Skills";
 
 function App() {
   return (
