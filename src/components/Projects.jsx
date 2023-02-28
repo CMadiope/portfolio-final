@@ -6,6 +6,7 @@ import pic3 from "../assets/pic3.avif";
 import pic4 from "../assets/pic4.avif";
 import country from "../assets/country.jpeg";
 import northstar from "../assets/northstar.png";
+import dictionary from "../assets/dictionary.jpeg";
 
 const Projects = () => {
   return (
@@ -27,7 +28,12 @@ const Projects = () => {
           live='https://northstar-nine.vercel.app/'
           gitRepo='https://github.com/CMadiope/northstar'
         />
-        <ProjectItem img={pic3} title='Coming soon' />
+        <ProjectItem
+          img={dictionary}
+          title='Online Dictionary'
+          live='https://dictionary-ten-alpha.vercel.app/'
+          gitRepo='https://github.com/CMadiope/dictionary'
+        />
         <ProjectItem img={pic4} title='Coming soon' />
       </div>
     </div>
