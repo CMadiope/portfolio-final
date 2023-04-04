@@ -35,8 +35,8 @@ const Projects = () => {
           live='https://dictionary-ten-alpha.vercel.app/'
           gitRepo='https://github.com/CMadiope/dictionary'
         />
-        <ProjectItem img={tesla} title='Tesla Clone' live='https://tesla-clone-z8ay.vercel.app/' />
-        gitRepo='https://github.com/CMadiope/tesla-clone'
+        <ProjectItem img={tesla} title='Tesla Clone' live='https://tesla-clone-z8ay.vercel.app/' gitRepo='https://github.com/CMadiope/tesla-clone'/>
+        
       </div>
     </div>
   );
