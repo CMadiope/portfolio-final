@@ -9,6 +9,7 @@ import northstar from "../assets/northstar.png";
 import dictionary from "../assets/dictionary.jpeg";
 import tesla from "../assets/tesla.png";
 import movies from "../assets/movies.png";
+import space from '../assets/space.png'
 
 const Projects = () => {
   return (
@@ -24,6 +25,13 @@ const Projects = () => {
           live='https://country-r3rc8ojx5-cmadiope.vercel.app/'
           gitRepo='https://github.com/CMadiope/country'
         />
+          <ProjectItem
+          img={space}
+          title='Space Tourism'
+          live='https://space-tourism-nextjs-one.vercel.app/'
+          gitRepo='https://github.com/CMadiope/space-tourism-nextjs'
+        />
+            
         <ProjectItem
           img={movies}
           title='Movies App'
