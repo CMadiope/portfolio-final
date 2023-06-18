@@ -10,6 +10,7 @@ import dictionary from "../assets/dictionary.jpeg";
 import tesla from "../assets/tesla.png";
 import movies from "../assets/movies.png";
 import space from '../assets/space.png'
+import nike from '../assets/nike-app.png
 
 const Projects = () => {
   return (
@@ -24,6 +25,18 @@ const Projects = () => {
           title='Countries API'
           live='https://country-r3rc8ojx5-cmadiope.vercel.app/'
           gitRepo='https://github.com/CMadiope/country'
+        />
+             <ProjectItem
+          img={nike}
+          title='Nike App'
+          live='https://nike-app-bice.vercel.app/'
+          gitRepo='https://github.com/CMadiope/nike-app'
+        />
+             <ProjectItem
+          img={tesla}
+          title='Tesla Clone'
+          live='https://tesla-clone-z8ay.vercel.app/'
+          gitRepo='https://github.com/CMadiope/tesla-clone'
         />
           <ProjectItem
           img={space}
@@ -50,12 +63,7 @@ const Projects = () => {
           live='https://dictionary-ten-alpha.vercel.app/'
           gitRepo='https://github.com/CMadiope/dictionary'
         />
-        <ProjectItem
-          img={tesla}
-          title='Tesla Clone'
-          live='https://tesla-clone-z8ay.vercel.app/'
-          gitRepo='https://github.com/CMadiope/tesla-clone'
-        />
+       
       </div>
     </div>
   );
