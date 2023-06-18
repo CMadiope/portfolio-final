@@ -26,13 +26,13 @@ const Projects = () => {
           live='https://country-r3rc8ojx5-cmadiope.vercel.app/'
           gitRepo='https://github.com/CMadiope/country'
         />
-             <ProjectItem
+         <ProjectItem
           img={nike}
           title='Nike App'
           live='https://nike-app-bice.vercel.app/'
           gitRepo='https://github.com/CMadiope/nike-app'
         />
-             <ProjectItem
+         <ProjectItem
           img={tesla}
           title='Tesla Clone'
           live='https://tesla-clone-z8ay.vercel.app/'
