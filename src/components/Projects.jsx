@@ -10,7 +10,7 @@ import dictionary from "../assets/dictionary.jpeg";
 import tesla from "../assets/tesla.png";
 import movies from "../assets/movies.png";
 import space from '../assets/space.png'
-import nike from '../assets/nike-app.png
+import nike from '../assets/nike-app.png'
 
 const Projects = () => {
   return (
